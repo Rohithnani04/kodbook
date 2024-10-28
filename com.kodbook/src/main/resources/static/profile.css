@@ -1,0 +1,493 @@
+/* General page styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:#A0D683;
+    color: #2E3440;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+nav {
+    background-color:#D3EE98;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: #9DBDFF;
+}
+
+/* Profile Header */
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color:#FEFF9F
+    ;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.profile-picture img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #FFD7C4;
+    margin-bott/* General page styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFD7C4;  /* Soft peach background */
+    color: #2A2A2A;             /* Dark gray text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #7695FF;  /* Soft blue for the navigation bar */
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;  /* White text for links */
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: #9DBDFF;  /* Slightly lighter blue on hover */
+}
+
+/* Profile Header */
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #9DBDFF;  /* Light blue for profile header */
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+}
+
+/* Profile Picture */
+.profile-picture img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #FFD7C4;  /* Peach border around the image */
+    margin-bottom: 15px;
+}
+
+/* Username */
+.username h1 {
+    color: #2A2A2A;  /* Dark gray for the username */
+    margin: 0;
+    font-size: 2.2em;
+}
+
+/* Profile Info Section */
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-info li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.profile-info i {
+    margin-right: 8px;
+    color: #7695FF;  /* Icon in blue to match theme */
+}
+
+/* Social Links */
+.social-links p {
+    margin: 5px 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #7695FF;  /* Links in theme color */
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #FF9874;  /* Coral pink on hover */
+}
+
+/* Posts Section */
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Post Card Styling */
+.post-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);  /* Subtle hover effect */
+}
+
+/* Post Header */
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.username {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+/* Post Image */
+.post-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Caption */
+.caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Likes */
+.likes {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #72BF78;  /* Coral for likes */
+}
+
+/* Comment Form */
+.comment-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #72BF78;  /* Blue border */
+    border-radius: 10px;
+    font-size: 1em;
+    resize: none;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #72BF78;  /* Coral button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #FF7043;  /* Darker coral on hover */
+    transform: scale(1.05);     /* Slight scale effect */
+}
+
+/* Comments Section */
+.comments-section {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.comments-section h4 {
+    color: #72BF78;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.comments-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.comments-section ul li {
+    background-color: #A0D683;  /* Light blue background */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #2A2A2A;
+}
+
+/* Responsive Design for Profile Page */
+@media (max-width: 768px) {
+    .post-card {
+        width: 90%;  /* Full-width for smaller screens */
+    }
+
+    .profile-header, .profile-content {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    input[type="submit"] {
+        font-size: 1em;
+        padding: 8px 18px;
+    }
+}om: 10px;
+}
+
+.username h1 {
+    color: #2A2A2A;
+    margin: 0;
+}
+
+/* Profile Content */
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-info li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+}
+
+.profile-info i {
+    margin-right: 8px;
+    color: #7695FF;
+}
+
+.social-links p {
+    margin: 5px 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #7695FF;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #FF9874;
+}
+
+/* Posts Container */
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Post Card */
+.post-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Post Header - Profile picture and Username */
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.username {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* Post Image */
+.post-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Caption */
+.caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Likes */
+.likes {
+    margin-bottom: 10px;
+}
+
+/* Like and Comment form */
+form {
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    background-color: #72BF78;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+/* Comment form styling */
+.comment-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #D3EE98;
+    border-radius: 10px;
+    font-size: 1em;
+    resize: none;
+}
+
+/* Comments section */
+.comments-section {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.comments-section h4 {
+    color: #72BF78;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.comments-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.comments-section ul li {
+    background-color: #D3EE98;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #2A2A2A;
+}
+
+/* Post Form Container */
+.post-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #FEFF9F
+    ;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.post-form-container h2 {
+    margin-bottom: 20px;
+    color: #2A2A2A;
+}
+
+textarea {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #7695FF;
+    resize: none;
+}
+
+/* Input Fields */
+input[type="file"] {
+    margin-top: 10px;
+} 
